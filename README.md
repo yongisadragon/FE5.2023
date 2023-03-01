@@ -27,7 +27,13 @@ ___
 # 🔁 원격 저장소와 로컬
 
 
-오늘 배운 내용에 따르면, GitHub을 사용하여 깃헙과 로컬을 오가며 협업하기 위해 굵직하게 다음 단계만 기억하면 된다고한다.
+오늘 배운 내용에 따르면, GitHub을 사용하여 깃헙과 로컬을 오가며 협업하기 위해 굵직하게 다음 단계만 기억하면 된다고한다. (아래 내용들은 원격 저장소의 링크를 git clone을 통해 원격 데이터들의 코드들 컴퓨터에 받아온 이후이다.)
+
+```
+$ mkdir filename
+$ cd filename
+$ git clone https://github.com/id/clone-filename.git .
+```
 
 
   * __git pull__
