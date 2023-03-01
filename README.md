@@ -48,6 +48,6 @@ $ git clone https://github.com/id/clone-filename.git .
 
 `git push`가 이루어지면 이제 GitHub의 Repository(원격 저장소)로 데이터를 쏘는 것이다.
 
-add와 commit에 대해 좀 더 덧붙이자면, 작업한 폴더 안의 파일들을 기록에 남기고 싶다면 미리 골라 git add한다고 한다. 이것을 staging area로 보낸다고 하고(스테이징 한다고도 함), git commit은 repository(기록 저장소)에 옮기는 것이다.
+add와 commit에 대해 좀 더 덧붙이자면, 작업한 폴더 안의 파일들을 기록에 남기고 싶다면 미리 골라 git add한다고 한다. 그것을 staging area로 보낸다고 하고(그래서 git add하는 것을 스테이징한다고도 한다.) 그 이후 git commit하는 것은 데이터를 repository(기록 저장소)에 옮기는 것이다.
 
 여기까지가 현재까지 흡수한 내용들이다. 실제로 협업을 하면서 더 자연스러워지겠지만.. 아무튼 개발과 관련된 공부들은 복잡하긴 하지만 익숙해지는 것 밖엔 길이 없다.. 나.. 할 수 있겠지?
