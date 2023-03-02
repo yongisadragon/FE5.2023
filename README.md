@@ -34,9 +34,8 @@ $ mkdir filename
 $ cd filename
 $ git clone https://github.com/id/clone-filename.git .
 ```
-
-[멋사FE5기 동료분의 URL강의](https://velog.io/@codenest/%EA%B6%81%EA%B8%88%ED%95%B4%EC%84%9C-%EC%B0%BE%EC%95%84%EB%B3%B8-URL%EC%9D%84-%EC%9E%85%EB%A0%A5%ED%95%98%EC%84%B8%EC%9A%94-2)
-- [ ]
+<!-- 
+[멋사FE5기 동료분의 URL강의](https://velog.io/@codenest/%EA%B6%81%EA%B8%88%ED%95%B4%EC%84%9C-%EC%B0%BE%EC%95%84%EB%B3%B8-URL%EC%9D%84-%EC%9E%85%EB%A0%A5%ED%95%98%EC%84%B8%EC%9A%94-2) -->
 
   * __git pull__
   * __git add .__
