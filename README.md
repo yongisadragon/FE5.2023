@@ -33,10 +33,10 @@
 }
 .arroww-right::after{
     border-right-width: 0;
-    border-left-color: purple;
+    border-left-color: purple; //왼에서 오른쪽 화살표
 }
 .arroww-left::after{
     border-left-width: 0;
-    border-right-color: purple;
+    border-right-color: purple; //오른에서 왼쪽 화살표
 }
 ```
