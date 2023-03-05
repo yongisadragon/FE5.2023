@@ -40,3 +40,10 @@
     border-right-color: purple; //오른에서 왼쪽 화살표
 }
 ```
+
+4번방식: after가상요소를 사용한 꺽쇠만들기이다. 천천히 코드 읽어보면 이해가 된다. 기본 border는 top과 right를 기준으로
+
+* 45deg 는 >
+* 225deg 는 <
+* 135deg 는 ∨
+* 315deg 는 ∧
