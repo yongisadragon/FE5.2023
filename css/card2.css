@@ -21,13 +21,11 @@ h2, p{
 }
 
 .top-content {
-  margin: 8px 16px 15px;
-
+  margin: 16px 16px 15px;
 }
 
 .top-right{
   display: inline-block;
-  justify-content: center;
   position: absolute;
   left: 72px;
   background-color:
@@ -41,8 +39,8 @@ h2, p{
   font-size: 12px;
 }
 
+
 .circle { 
-  /* position: relative;  */
   display: inline-block;
   width: 40px; 
   height: 40px; 
@@ -52,7 +50,7 @@ h2, p{
 } 
 
 .circle img { 
-  /* position: absolute; */
+  
   width: 100%; 
   height: auto; 
   margin-top: -6px; 
@@ -65,6 +63,10 @@ h2, p{
   object-fit: cover;
 }
 
+.bottom-content{
+  margin: 10px 16px 16px;
+}
+
 .bottom-content  p {
   font-size: 12px;
   color: #5A6A72;
@@ -74,27 +76,51 @@ h2, p{
   -webkit-line-clamp: 2;
   overflow: hidden;
   word-break: break-all;
-  
-  margin: 10px 16px 12px;
   line-height: 20px;
 } 
 
 .foot-wrap{
-  display: inline-block;
+  margin: 0px 16px 20px;
   overflow: hidden;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  
 }
 
 .underline{
-  float: left;
+  position: relative;
   text-decoration: underline;
   font-size: 14px;
   font-weight: bold;
 }
 
+.underline::after{
+  position: absolute;
+  content: '';
+  width: 5px; 
+  height: 5px;
+  top: 5px;
+  left: 40px;
+  border-top: 2px solid #29363D;
+  border-right: 2px solid #29363D;
+  transform: rotate(45deg); 
+
+}
+
 .img-wrap{
-  float: right;
+
 }
 
 .img1{
-
+  box-sizing: border-box;
+  width: 30px;
+}
+.img2{
+  box-sizing: border-box;
+  width: 30px;
+}
+.img3{
+  box-sizing: border-box;
+  width: 30px;
 }
