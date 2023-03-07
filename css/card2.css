@@ -8,6 +8,8 @@ body{
   box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
   overflow: hidden;
+  
+
 }
 
 a{
@@ -22,6 +24,23 @@ h2, p{
 
 .top-content {
   margin: 16px 16px 15px;
+  display: flex;
+  align-items: center;
+}
+
+.circle { 
+  display: inline-block;
+  width: 40px; 
+  height: 40px; 
+  overflow: hidden; 
+  border-radius: 50%; 
+  background: red;
+} 
+.card-item .title {
+  font-size: 16px;
+}
+.card-item .sub-title {
+  font-size: 12px;
 }
 
 .top-right{
@@ -32,22 +51,9 @@ h2, p{
 }
 
 
-.card-item .title {
-  font-size: 16px;
-}
-.card-item .sub-title {
-  font-size: 12px;
-}
 
 
-.circle { 
-  display: inline-block;
-  width: 40px; 
-  height: 40px; 
-  overflow: hidden; 
-  border-radius: 50%; 
-  background: red;
-} 
+
 
 .circle img { 
   
@@ -57,10 +63,10 @@ h2, p{
 }
 
 .main-img{
-  vertical-align: top;
   width: 100%;
   aspect-ratio: 288 / 196;
   object-fit: cover;
+  vertical-align: top;
 }
 
 .bottom-content{
@@ -81,18 +87,15 @@ h2, p{
 
 .foot-wrap{
   margin: 0px 16px 20px;
-  overflow: hidden;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  
 }
 
 .underline{
-  position: relative;
+  display: inline-block;
   text-decoration: underline;
   font-size: 14px;
   font-weight: bold;
+  position: relative;
+  margin-top: 5px;
 }
 
 .underline::after{
@@ -105,22 +108,14 @@ h2, p{
   border-top: 2px solid #29363D;
   border-right: 2px solid #29363D;
   transform: rotate(45deg); 
+}
+
+.img-wrap{  
+  float: right;
 
 }
 
-.img-wrap{
-
-}
-
-.img1{
-  box-sizing: border-box;
-  width: 30px;
-}
-.img2{
-  box-sizing: border-box;
-  width: 30px;
-}
-.img3{
-  box-sizing: border-box;
-  width: 30px;
+.img-wrap img{
+  width: 27px;
+  display: inline-block;
 }
