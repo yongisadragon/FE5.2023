@@ -1,2 +1,2 @@
 # FE5.2023
-멋사 Front-end school 5기
+멋쟁이 사자처럼 Front-end school 5기
