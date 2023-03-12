@@ -6,12 +6,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>title name</title>
     <style>
-      div {
-        column-rule: 0cap;
+      body {
+        background-color: aquamarine;
+      }
+      .grid {
+        width: 500px;
+        background-color: white;
+        /* overflow: hidden; */
+        display: grid;
+        grid-template-rows: 1fr 2fr 1fr;
+      }
+      /* .grid::after {
+        content: "";
+        display: block;
+        clear: left;
+      } */
+      .grid-item {
+        width: 100px;
+        height: 100px;
+      }
+
+      .grid-item.a {
+        background-color: orange;
+      }
+      .grid-item.b {
+        background-color: deeppink;
+      }
+      .grid-item.c {
+        background-color: greenyellow;
       }
     </style>
   </head>
   <body>
-    <div>asdfdaf</div>
+    <div class="grid">
+      <div class="grid-item a">a</div>
+      <div class="grid-item b">b</div>
+      <div class="grid-item c">c</div>
+    </div>
   </body>
 </html>
